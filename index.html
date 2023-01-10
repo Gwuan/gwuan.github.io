@@ -1,49 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-    <link rel="stylesheet" href="CSS/main.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/main.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oefening 2</title>
+    <title>Jelle Rubbens | Portofolio</title>
 </head>
 <body>
-    <div class="first_text">
-        <h1 class="title"><i>Game Development</i></h1>
-        <p>Game development is de laatste jaren aan het stijgen om dat het zo toegankelijk is. 
-            <br>
-            Dat is ook danzij de community er rondom heen; het voelt aan als en familie.
-            Je kan er altijd terecht voor feedback of vragen.
-        </p> 
-        <p>Er zijn ook verschillende manieren hoe je een game kan ontwikkelen. 
-            Het is aan te raden om een engine te nemen die past bij jouw project en jouw skill niveau.
-            <br>
-            Voor bijna iedereen raad ik <a href="https://www.unrealengine.com/en-US" target="_blank"><i>Unreal Engine</i></a> aan om 3D games te ontwikkelen en voor 2D games en mobile games raad ik <a href="https://unity.com/" target="_blank"><i>Unity</i></a> aan.
-        </p>
-    </div>
-    <div class="row">
-        <div class="column">
-            <a href="https://www.unrealengine.com/en-US" target="_blank">
-                <img class="UnrealEngine" src="images/ue5.jpg" alt="Afbeelding van Unreal Engine 5">
-            </a>
-            <figcaption><i>- Unreal Engine 5</i></figcaption>
-        </div>
-        <div class="column">
-            <a href="https://unity.com/" target="_blank">
-                <img class="Unity" src="images/unity.webp" alt="Afbeelding van Unity 2D">
-            </a>
-            <figcaption><i>- Unity 2D</i></figcaption>    
-        </div>
-    </div>
-    <div class="second_text">
-        <p>
-            Voor de geavanceerde programmeurs onder ons kan je ook altijd een eigen engine bouwen. Zo leer je enorm veel bij hoe engines in elkaar zitten en ook hoe bepaalde functies zoals renderen en raytracing in elkaar zitten.
-        </p>
-    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <section id="about-me">
+            <h1>{ABOUT ME}</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus similique, dolorem deleniti fugiat molestias modi harum quae optio fuga consequatur vero labore? Ipsum officia sequi dolorum culpa repudiandae, corrupti commodi.
+            </p>
+            <img 
+                src="data:image/png;base64,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" 
+                alt="profile picture"
+            >
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="projects-grid">
+                <article class="project">
+                    <a href="projects/SuperMarioBros.html" target="_blank">
+                        <img src="https://images.nintendolife.com/c229220f2279a/when-did-the-legend-begin.large.jpg" alt="">
+                        <div class="container">
+                            <h2>Super Mario Bros</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente optio deleniti, odit fuga cupiditate.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="project">
+                    <img src="https://res.cloudinary.com/hkf2ycaep/image/fetch/d_project-placeholder.png,f_auto,fl_lossy/https:/assets/project-placeholder-c2559bea6038f770e3aa3c57b731e43dfb0d70ab958b22a0bfa287b11ed51634.png" alt="">
+                    <div class="container">
+                        <h2>Project #2</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente optio deleniti, odit fuga cupiditate.</p>
+                    </div>
+                </article>
+                <article class="project">
+                    <img src="https://res.cloudinary.com/hkf2ycaep/image/fetch/d_project-placeholder.png,f_auto,fl_lossy/https:/assets/project-placeholder-c2559bea6038f770e3aa3c57b731e43dfb0d70ab958b22a0bfa287b11ed51634.png" alt="">
+                    <div class="container">
+                        <h2>Project #3</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente optio deleniti, odit fuga cupiditate.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact-me">
+        </section>
+    </main>
+    
 </body>
 <footer>
     <p>
-        Jelle Rubbens | Web Development 1 @Hogeschool Gent | 2022-2023
+        &copy; Jelle Rubbens | Student at Hogeschool Gent | 2022-2023
     </p>
 </footer>
 </html>

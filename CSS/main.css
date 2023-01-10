@@ -1,51 +1,172 @@
-* {
-    font-family: 'Segoe UI';
-    box-sizing: border-box;
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #eee;
+    border-radius: 10px;
+  }
+
+body {
+    margin: 0;
+}
+
+main {
+    margin-top: 75px;
+}
+/* --- NAV BAR --- */
+nav {
+    margin: 0;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    text-align: center;
+    display: inline;
+    font-size: x-large;
+    width: 80%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 5px;
     
 }
 
-body {
-    background-color: lightgray;
-}
-
-.title {
-    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
-}
-
-.row {
-    width: 100%;
-    height: 340px;
-}
-
-.column {
-    float: left;
-    width: auto;
-    padding: 3px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.column img {
-    max-height: 300px;
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
     display: block;
-    margin: 0, auto;
-    border-radius: 7px;
-    box-shadow: 0px 0px 10px black;
+    background-color: #696969;
 }
 
-figcaption {
-    font-size: small;
+/* --- ABOUT ME --- */
+
+#about-me {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(201, 201, 201);
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-areas:
+                    "a c"
+                    "b c";
+    grid-template-rows: auto;
 }
 
-.second_text {
-    display: flexbox;
+#about-me h1 {
+    grid-area: a;
+    margin: 0;
+    height: fit-content;
+    padding: 16px;
 }
 
+#about-me p{
+    grid-area: b;
+    padding: 0 16px;
+}
+
+#about-me img{
+    grid-area: c;
+    border-radius: 10px;
+}
+
+/* --- PROJECTS --- */
+
+#projects {
+    
+    width: 80%;
+    margin: 3em auto 3em;
+    border-radius: 10px;
+}
+
+#projects h1 {
+    text-align: center;
+    background-color: #B3B3B3;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0px;
+}
+
+.projects-grid {
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    padding: 2% 0;
+    background-color: #e6e6e6;
+    border-radius: 0 0 10px 10px;
+    justify-content: space-evenly;
+}
+
+.project {
+  /* Add shadows to create the "project" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  max-width: 100%;
+  max-height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.project a {
+    text-decoration: none;
+    color: black;
+}
+
+.project img {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.project:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the project container */
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* --- FOOTER --- */
 footer {
-    font-size: small;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
     position: absolute;
     bottom: 0;
-    width: 99.5%;
-    height: 50px;
-    text-align: center;
+    width: 100%;
+    height: 2.5rem; 
+}
+
+footer p {
+    position: relative;
+    top: 25%;
+    margin: 0;
+    font-size: 1.2em;
 }
