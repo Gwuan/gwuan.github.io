@@ -1,0 +1,10 @@
+[author]
+  name = "Jelle Rubbens"
+  location = "Belgium"
+  description = "A Game Development student at Howest Digital Art & Entertainment (DAE), currently looking for an internship in spring 2026. I mainly work with C++ and enjoy getting into the technical side of things. Take a look at my projects to see what I've done over the years!"
+  profile_image = "/images/profile-picture-template.jpg"
+
+  # Social links
+  github = "https://github.com/Gwuan"
+  linkedin = "https://linkedin.com/in/jelle-rubbens-3b0575200"
+  email = "jellerubbens@hotmail.be"

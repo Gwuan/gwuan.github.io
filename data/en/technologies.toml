@@ -1,0 +1,31 @@
+[[technologies]]
+name = "C++"
+icon = "devicon-cplusplus-plain"
+
+[[technologies]]
+name = "C#"
+icon = "devicon-csharp-plain"
+
+[[technologies]]
+name = "Vulkan"
+icon = "devicon-vulkan-original"
+
+[[technologies]]
+name = "SDL"
+icon = "devicon-sdl-plain"
+
+[[technologies]]
+name = "Unity"
+icon = "devicon-unity-plain"
+
+[[technologies]]
+name = "Unreal Engine"
+icon = "devicon-unrealengine-plain"
+
+[[technologies]]
+name = "Git"
+icon = "devicon-git-plain"
+
+[[technologies]]
+name = "CMake"
+icon = "devicon-cmake-plain"

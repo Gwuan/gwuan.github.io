@@ -1,0 +1,38 @@
+[[experience]]
+  role = "Student project - Unreal Game developer"
+  company = "Howest DAE - Haunted Havoc"
+  company_link = "https://xpromusje.itch.io/hauntedhavoc"
+  period = "Feb 2025 - Jun 2025"
+  country = "BE"
+  description = "Haunted Havoc is a fast-paced, local multiplayer 1v1 / 2v2 party brawler where players collect and launch ghosts as bullets, revive fallen teammates, and compete to be the last spirit standing. I was involved in the development as part of a small team, contributing to both game logic and polish."
+  responsibilities = [
+    "Implemented main player mechanics",
+    "Balanced game rules, damage, and upgrades",
+    "Collaborated with visual artists and sound engineer for integration",
+    "Playtesting, polishing and bugfixing"
+    ]
+
+[[experience]]
+  role = "Packager - Full-time Night Shift"
+  company = "Incoplas"
+  company_link = "https://www.incoplas.com"
+  period = "May 2024 - Aug 2024"
+  country = "BE"
+  responsibilities = [
+    "Packing bottles",
+    "Inspecting bottles for defects",
+    "Reporting issues to mechanics & lab"  
+  ]
+
+[[experience]]
+  role = "Student Project - Java Software Developer"
+  company = "HoGent - Splendor online replica"
+  period = "Feb 2023 - Jun 2023"
+  country = "BE"
+  responsibilities = [
+    "Demonstrated flexibility within a team reduced from 5 to 2 members",
+    "Development of the application",
+    "Database construction & maintenance",
+    "AWS Ubuntu Server maintenance",
+    "Playtesting & Bugfixing"
+  ]

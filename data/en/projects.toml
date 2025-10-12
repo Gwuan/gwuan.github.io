@@ -1,0 +1,36 @@
+# [[projects]]
+# title = "ExampleProject"
+# date = "2025-11-10"
+# description = "ExampleDescription"
+# tags = ["unity", "C#"]
+# image = "/images/projects/project-image.jpg"
+# github = "https://github.com/gwuan/XXXX"
+# youtube = "https://www.youtube.com/embed/XXXXXXXXXXX"
+# featured = true
+
+[[projects]]
+title = "Software Raytracer"
+description = "A software raytracer which i made for an assignment for the Graphics Programming course, including a simplified version of MSAA."
+tags = ["C++", "CMake"]
+image = "/images/projects/RayTracing_Buffer_Reference_Combined.png"
+github = "https://github.com/gwuan/Software-Raytracer"
+link = "https://github.com/gwuan/Software-Raytracer"
+featured = true
+
+[[projects]]
+title = "Custom 2D Game Engine"
+date = "2025-06-30"
+description = "A custom 2D Game Engine almost from scratch as a exam project, built for Burger Time clone. It has SaaS (Sound as a Service), JSON level loading, XInput gamepad support, etc.!"
+tags = ["C++", "SDL", "XInput"]
+image = "/images/projects/game-engine.jpg"
+featured = true
+
+[[projects]]
+title = "Haunted Havoc"
+date = "2025-06-30"
+description = "A game made in Unreal Engine which has been made with a group of total 5 members including for our Game Projects course. During development we have experienced 3 different phases: preproduction, production and polish."
+tags = ["Unreal Engine", "C++"]
+image = "/images/projects/haunted-havoc.jpg"
+youtube = "https://youtu.be/07HAFmM_7Q8"
+link = "https://xpromusje.itch.io/hauntedhavoc"
+featured = true
