@@ -1,3 +1,88 @@
-baseURL = 'https://example.org/'
+# General stuff
+baseURL = 'jellerubbens.com'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Jelle Rubbens | Portfolio'
+theme = 'hugo-noir'
+
+relativeURLs = true
+canonifyURLs = true
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Jelle Rubbens | Portfolio"
+    weight = 1
+    contentDir = "content/en"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "About"
+        pageRef = "/about"
+        weight = 1
+      [[languages.en.menu.main]]
+        name = "Experience"
+        pageRef = "/experience"
+        weight = 2
+      [[languages.en.menu.main]]
+        name = "Projects"
+        pageRef = "/projects"
+        weight = 3
+      [[languages.en.menu.main]]
+        name = "Contact"
+        pageRef = "/contact"
+        weight = 4
+  [languages.nl]
+    languageName = "Nederlands"
+    title = "Jelle Rubbens | portfolio"
+    weight = 2
+    contentDir = "content/nl"
+    [languages.nl.menu]
+      [[languages.nl.menu.main]]
+        name = "Over mij"
+        pageRef = "/about"
+        weight = 1
+      [[languages.nl.menu.main]]
+        name = "Ervaring"
+        pageRef = "/experience"
+        weight = 2
+      [[languages.nl.menu.main]]
+        name = "Projecten"
+        pageRef = "/projects"
+        weight = 3
+      [[languages.nl.menu.main]]
+        name = "Contact"
+        pageRef = "/contact"
+        weight = 4
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[params]
+name = "Jelle Rubbens"
+profile_image = "/images/profile-picture-template.jpg" # TODO: This doesn't seem to work for some reason.
+email = "jellerubbens@hotmail.be"
+github = "https://github.com/Gwuan"
+github_username = "Gwuan"
+linkedin = "https://www.linkedin.com/in/jelle-rubbens-3b0575200/"
+linkedin_username = "jelle-rubbens-3b0575200"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Experience"
+    url = "/experience/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact Me"
+    url = "/contact/"
+    weight = 4
