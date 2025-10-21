@@ -1,6 +1,6 @@
 ---
 title: "Software Raytracer"
-date: 2024-10-19
+date: 2024-11-15
 tags: ["Graphics Programming", "Real-time Rendering", "C++"]
 repo: "https://github.com/Gwuan/Software-Raytracer"
 techs: ["SDL", "C++20", "CMake"]
