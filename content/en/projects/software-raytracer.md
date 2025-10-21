@@ -1,5 +1,5 @@
 ---
-title: "Vulkan Rendering Engine"
+title: "Software Raytracer"
 date: 2024-10-19
 tags: ["Graphics Programming", "Real-time Rendering", "C++"]
 repo: "https://github.com/Gwuan/Software-Raytracer"
