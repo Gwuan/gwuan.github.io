@@ -1,5 +1,5 @@
 ---
-title: "Vulkan Rendering Engine"
+title: "Vulkan Render Engine"
 tags: ["Graphics Programming", "Real-time Rendering", "C++"]
 techs: ["Vulkan", "C++20", "GLSL", "SDL2"]
 images:
