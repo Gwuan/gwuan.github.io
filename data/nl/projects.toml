@@ -4,7 +4,7 @@ description = "A software raytracer which i made for an assignment for the Graph
 tags = ["C++", "CMake"]
 image = "/images/projects/RayTracing_Buffer_Reference_Combined.png"
 github = "https://github.com/gwuan/Software-Raytracer"
-link = "https://github.com/gwuan/Software-Raytracer"
+link = "software-raytracer"
 featured = true
 
 [[projects]]
@@ -12,7 +12,15 @@ title = "Custom 2D Game Engine"
 date = "2025-06-30"
 description = "A custom 2D Game Engine almost from scratch as a exam project, built for Burger Time clone. It has SaaS (Sound as a Service), JSON level loading, XInput gamepad support, etc.!"
 tags = ["C++", "SDL", "XInput"]
-image = "/images/projects/game-engine.jpg"
+image = "/images/projects/game-engine.png"
+featured = true
+
+[[projects]]
+title = "Vulkan Render Engine"
+date = "2025-06-30"
+description = "A custom-built rendering engine developed from scratch using the Vulkan API. Features both dynamic and deferred rendering pipelines with static glTF model support. Includes automated project setup and builds via CMake."
+tags = ["C++", "SDL", "Vulkan"]
+image = "/images/projects/vulkan-render-engine.png"
 featured = true
 
 [[projects]]
@@ -22,5 +30,5 @@ description = "A game made in Unreal Engine which has been made with a group of 
 tags = ["Unreal Engine", "C++"]
 image = "/images/projects/haunted-havoc.jpg"
 youtube = "https://youtu.be/07HAFmM_7Q8"
-link = "https://xpromusje.itch.io/hauntedhavoc"
+link = "haunted-havoc"
 featured = true

@@ -1,0 +1,379 @@
+{{ define "main" }}
+<div class="w-full max-w-5xl mx-auto py-12 px-4">
+    <div class="mb-6">
+        <a href="{{ .Site.BaseURL }}{{ .Lang }}/projects" 
+           class="inline-flex items-center gap-2 px-4 py-2 text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+            </svg>
+            Back to Projects
+        </a>
+    </div>
+    
+    <div class="p-8 border border-border-primary-light dark:border-border-primary-dark rounded-2xl bg-neutral-50 dark:bg-neutral-800">
+        <div class="mb-8">
+            <h1 class="text-4xl font-bold mb-4 text-text-primary-light dark:text-text-primary-dark">{{ .Title }}</h1>
+            
+            <div class="flex flex-wrap items-center gap-4 mb-6 text-text-secondary-light dark:text-text-secondary-dark">
+                {{ if .Date }}
+                <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-sm">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ end }}
+                
+                {{ if .Params.tags }}
+                <div class="flex flex-wrap gap-2">
+                    {{ range .Params.tags }}
+                    <span class="px-3 py-1 bg-bg-primary-light dark:bg-bg-tertiary-dark rounded-md text-xs font-medium text-text-secondary-light dark:text-text-secondary-dark border border-border-primary-light dark:border-border-primary-dark">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+
+            <div class="flex flex-wrap gap-3 mb-6">
+                {{ if .Params.repo }}
+                <a href="{{ .Params.repo }}" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 dark:bg-gray-700 text-white rounded-lg hover:bg-gray-700 dark:hover:bg-gray-600 transition-colors">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    View Code
+                </a>
+                {{ end }}
+
+                {{ if .Params.youtube }}
+                <a href="{{ .Params.youtube }}" target="_blank" rel="noopener noreferrer"
+                   class="inline-flex items-center gap-2 px-4 py-2 bg-red-600 dark:bg-red-700 text-white rounded-lg hover:bg-red-700 dark:hover:bg-red-600 transition-colors">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                    </svg>
+                    Video
+                </a>
+                {{ end }}
+
+                {{ if .Params.itch }}
+                <a href="{{ .Params.itch }}" target="_blank" rel="noopener noreferrer"
+                   class="inline-flex items-center gap-2 px-4 py-2 bg-pink-600 dark:bg-pink-700 text-white rounded-lg hover:bg-pink-700 dark:hover:bg-pink-600 transition-colors">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M3.13 1.338C2.08 1.96.02 4.328 0 4.95v1.03c0 1.303 1.22 2.45 2.325 2.45 1.33 0 2.436-1.102 2.436-2.41 0 1.308 1.07 2.41 2.4 2.41 1.328 0 2.362-1.102 2.362-2.41 0 1.308 1.137 2.41 2.466 2.41 1.33 0 2.467-1.102 2.467-2.41 0 1.308 1.033 2.41 2.362 2.41 1.33 0 2.4-1.102 2.4-2.41 0 1.308 1.106 2.41 2.435 2.41C22.78 8.43 24 7.283 24 5.98V4.95c-.02-.62-2.082-2.99-3.13-3.612-3.253-.114-5.508-.134-8.87-.134-3.362 0-5.617.02-8.87.134z"/>
+                    </svg>
+                    Play Game
+                </a>
+                {{ end }}
+
+                {{ if .Params.demo }}
+                <a href="{{ .Params.demo }}" target="_blank" rel="noopener noreferrer"
+                   class="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 dark:bg-blue-700 text-white rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                    </svg>
+                    Try It
+                </a>
+                {{ end }}
+            </div>
+
+            {{ if .Params.tech }}
+            <div class="mb-6">
+                <h3 class="text-sm font-semibold text-text-secondary-light dark:text-text-secondary-dark mb-2 uppercase tracking-wide">Built With</h3>
+                <div class="flex flex-wrap gap-2">
+                    {{ range .Params.tech }}
+                    <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">{{ . }}</span>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+
+            {{ if .Params.youtube }}
+            <div class="mb-8">
+                <div class="relative w-full" style="padding-bottom: 56.25%;">
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full rounded-lg"
+                        src="https://www.youtube.com/embed/{{ index (split .Params.youtube "v=") 1 }}" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+
+        <div class="project-content">
+            {{ .Content }}
+        </div>
+
+        {{ if .Params.images }}
+        <div class="mt-8">
+            <h3 class="text-2xl font-bold mb-4 text-text-primary-light dark:text-text-primary-dark">Gallery</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {{ range $index, $image := .Params.images }}
+                <img src="{{ $image }}" alt="Project screenshot" class="rounded-lg shadow-lg w-full h-auto object-cover cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox({{ $index }})">
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+    <button class="lightbox-close" onclick="closeLightbox(event)" aria-label="Close">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+    </button>
+    
+    {{ if .Params.images }}
+    {{ if gt (len .Params.images) 1 }}
+    <button class="lightbox-prev" onclick="changeImage(-1, event)" aria-label="Previous">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+        </svg>
+    </button>
+    
+    <button class="lightbox-next" onclick="changeImage(1, event)" aria-label="Next">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+        </svg>
+    </button>
+    {{ end }}
+    {{ end }}
+    
+    <img id="lightbox-img" src="" alt="Full screen" class="lightbox-img">
+    
+    <div class="lightbox-counter" id="lightbox-counter"></div>
+</div>
+
+<style>
+    .project-content h2 {
+        font-size: 1.875rem;
+        font-weight: 700;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .project-content h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .project-content h4 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-top: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .project-content p {
+        margin-bottom: 1rem;
+        line-height: 1.75;
+    }
+    
+    .project-content ul, .project-content ol {
+        margin-bottom: 1rem;
+        padding-left: 1.5rem;
+    }
+    
+    .project-content li {
+        margin-bottom: 0.5rem;
+        line-height: 1.75;
+    }
+    
+    .project-content ul { list-style-type: disc; }
+    .project-content ol { list-style-type: decimal; }
+    .project-content strong { font-weight: 600; }
+    
+    .project-content code {
+        background-color: rgba(110, 118, 129, 0.2);
+        padding: 0.2rem 0.4rem;
+        border-radius: 0.25rem;
+        font-size: 0.875em;
+        font-family: ui-monospace, monospace;
+    }
+    
+    .project-content pre {
+        background-color: #1e1e1e;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        overflow-x: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .project-content pre code {
+        background-color: transparent;
+        padding: 0;
+    }
+    
+    .project-content a {
+        color: #3b82f6;
+        text-decoration: underline;
+    }
+    
+    html.dark .project-content a { color: #60a5fa; }
+    
+    .project-content blockquote {
+        border-left: 4px solid #d1d5db;
+        padding-left: 1rem;
+        margin: 1rem 0;
+        font-style: italic;
+    }
+    
+    html.dark .project-content blockquote { border-left-color: #4b5563; }
+    
+    .project-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+        margin: 1rem 0;
+        cursor: pointer;
+    }
+    
+    .project-content img:hover { opacity: 0.9; }
+
+    .lightbox {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.95);
+        z-index: 9999;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .lightbox.active { display: flex; }
+    
+    .lightbox-img {
+        max-width: 90%;
+        max-height: 90vh;
+        object-fit: contain;
+        border-radius: 0.5rem;
+    }
+    
+    .lightbox-close {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s;
+        z-index: 10001;
+    }
+    
+    .lightbox-close:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: scale(1.1);
+    }
+    
+    .lightbox-prev, .lightbox-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s;
+        z-index: 10001;
+    }
+    
+    .lightbox-prev { left: 2rem; }
+    .lightbox-next { right: 2rem; }
+    
+    .lightbox-prev:hover, .lightbox-next:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: translateY(-50%) scale(1.1);
+    }
+    
+    .lightbox-counter {
+        position: absolute;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        font-size: 0.875rem;
+        z-index: 10001;
+    }
+    
+    @media (max-width: 768px) {
+        .lightbox-prev, .lightbox-next { padding: 0.75rem; }
+        .lightbox-prev { left: 1rem; }
+        .lightbox-next { right: 1rem; }
+        .lightbox-close {
+            top: 1rem;
+            right: 1rem;
+            padding: 0.5rem;
+        }
+    }
+</style>
+
+<script>
+    const images = [{{ range .Params.images }}"{{ . }}",{{ end }}];
+    let currentIndex = 0;
+
+    function openLightbox(index) {
+        currentIndex = index;
+        const lb = document.getElementById('lightbox');
+        const img = document.getElementById('lightbox-img');
+        const counter = document.getElementById('lightbox-counter');
+        
+        img.src = images[currentIndex];
+        lb.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        
+        if (images.length > 1) {
+            counter.textContent = `${currentIndex + 1} / ${images.length}`;
+        }
+    }
+
+    function closeLightbox(e) {
+        if (e) e.stopPropagation();
+        document.getElementById('lightbox').classList.remove('active');
+        document.body.style.overflow = 'auto';
+    }
+
+    function changeImage(dir, e) {
+        e.stopPropagation();
+        currentIndex += dir;
+        
+        if (currentIndex < 0) currentIndex = images.length - 1;
+        if (currentIndex >= images.length) currentIndex = 0;
+        
+        document.getElementById('lightbox-img').src = images[currentIndex];
+        document.getElementById('lightbox-counter').textContent = `${currentIndex + 1} / ${images.length}`;
+    }
+
+    document.addEventListener('keydown', e => {
+        const lb = document.getElementById('lightbox');
+        if (!lb.classList.contains('active')) return;
+        
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') changeImage(-1, e);
+        if (e.key === 'ArrowRight') changeImage(1, e);
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.project-content img').forEach(img => {
+            img.style.cursor = 'pointer';
+            img.onclick = () => {
+                if (!images.includes(img.src)) images.push(img.src);
+                openLightbox(images.indexOf(img.src));
+            };
+        });
+    });
+</script>
+{{ end }}
