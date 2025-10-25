@@ -30,5 +30,5 @@ description = "A game made in Unreal Engine which has been made with a group of 
 tags = ["Unreal Engine", "C++"]
 image = "/images/projects/haunted-havoc.jpg"
 youtube = "https://youtu.be/07HAFmM_7Q8"
-link = "https://xpromusje.itch.io/hauntedhavoc"
+link = "haunted-havoc"
 featured = true
