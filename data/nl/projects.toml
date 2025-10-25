@@ -4,7 +4,7 @@ description = "A software raytracer which i made for an assignment for the Graph
 tags = ["C++", "CMake"]
 image = "/images/projects/RayTracing_Buffer_Reference_Combined.png"
 github = "https://github.com/gwuan/Software-Raytracer"
-link = "https://github.com/gwuan/Software-Raytracer"
+link = "software-raytracer"
 featured = true
 
 [[projects]]

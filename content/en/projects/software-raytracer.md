@@ -41,4 +41,4 @@ This project is a CPU based raytracer intended as an educational project to expl
 - This was my first interaction with Graphics Programming in general.
 - The codebase is organized for week-by-week course progression. Scenes are ordered based on the weeks of class, which makes it easy to see incremental improvements. 
 - This was a 4.5 week course assignment. There is significant room for optimization and refactoring, but the project was completed within the given time frame (including the   optional extra rendering feature, MSAA).
-- MSAA si implemented as per-pixel supersampling using a grid uniform distribution of sample positions (samples per pixel are averaged to produce final pixel). This is a simple but effective anti-aliasing approach for a CPU render.
+- MSAA is implemented as per-pixel supersampling using a grid uniform distribution of sample positions (samples per pixel are averaged to produce final pixel). This is a simple but effective anti-aliasing approach for a CPU render.
