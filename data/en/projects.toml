@@ -9,6 +9,20 @@
 # featured = true
 
 [[projects]]
+title = "Souper Bloody"
+description = "A dungeon crawler, hack-and-slash game currently in development for the Group Projects course. Our goal is to release it on Steam and submit it to several award shows, such as the Belgian Game Awards and The Rookies. Updates will follow soon!"
+tech = ["C#", "Unity"]
+image = "/images/projects/souper-bloody.png"
+featured = false
+
+[[projects]]
+title = "GradWork: VR optimiziation to decrease battery drain"
+description = "I'm currently working on my graduation work which is a comparative paper on how you can optimize VR game to reduce battery drain while mainting high framerate and visual quality. I will update this page when I'm ready to share my findings!"
+tech = ["C#", "Unity", "VR"]
+image = "/images/projects/pexels-anna-2037514238-29929136.jpg"
+featured = false
+
+[[projects]]
 title = "Software Raytracer"
 description = "A software raytracer which i made for an assignment for the Graphics Programming course, including a simplified version of MSAA."
 tech = ["C++", "CMake"]
