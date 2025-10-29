@@ -18,21 +18,17 @@ defaultContentLanguageInSubdir = true
     contentDir = "content/en"
     [languages.en.menu]
       [[languages.en.menu.main]]
-        name = "About"
-        pageRef = "/about"
-        weight = 1
-      [[languages.en.menu.main]]
         name = "Experience"
         pageRef = "/experience"
-        weight = 2
+        weight = 1
       [[languages.en.menu.main]]
         name = "Projects"
         pageRef = "/projects"
-        weight = 3
+        weight = 2
       [[languages.en.menu.main]]
         name = "Contact"
         pageRef = "/contact"
-        weight = 4
+        weight = 3
   [languages.nl]
     languageName = "Nederlands"
     title = "Jelle Rubbens | portfolio"
@@ -40,21 +36,17 @@ defaultContentLanguageInSubdir = true
     contentDir = "content/nl"
     [languages.nl.menu]
       [[languages.nl.menu.main]]
-        name = "Over mij"
-        pageRef = "/about"
-        weight = 1
-      [[languages.nl.menu.main]]
         name = "Ervaring"
         pageRef = "/experience"
-        weight = 2
+        weight = 1
       [[languages.nl.menu.main]]
         name = "Projecten"
         pageRef = "/projects"
-        weight = 3
+        weight = 2
       [[languages.nl.menu.main]]
         name = "Contact"
         pageRef = "/contact"
-        weight = 4
+        weight = 3
 
 [taxonomies]
 category = "categories"
