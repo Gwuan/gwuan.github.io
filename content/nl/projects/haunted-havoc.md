@@ -19,7 +19,7 @@ Spelers kruipen in de rol van **ghost wielding necromancers** die het tegen elka
 
 **Unieke combat mechanics** - Schiet met ghosts naar de vijand. Als je raakt, verlaat hun spirit het lichaam en wordt het bestuurbaar.
 
-**Revive en Soul Steal systems** = Teamgenoten kunnen vermoorde spelers reviven door hun ghost op te zuigen en terug in hun lichaam te lanceren. Tegenstanders kunnen de ghost ook stelen en gebruiken als explosief projectiel, of zelfs per ongeluk de tegenstander reviven.
+**Revive en Soul Steal systems** - Teamgenoten kunnen vermoorde spelers reviven door hun ghost op te zuigen en terug in hun lichaam te lanceren. Tegenstanders kunnen de ghost ook stelen en gebruiken als explosief projectiel, of zelfs per ongeluk de tegenstander reviven.
 
 **Comeback gericht Upgrade System** - Aan het einde van elke ronde krijgt het verliezende team een krachtige upgrade om hun kansen in de volgende ronde te verhogen. De chaos neemt steeds toe.
 

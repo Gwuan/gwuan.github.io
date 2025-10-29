@@ -62,7 +62,7 @@ tag = "tags"
 
 [params]
 name = "Jelle Rubbens"
-profile_image = "/images/profile-picture-template.jpg" # TODO: This doesn't seem to work for some reason.
+profile_image = "/images/profile-picture.jpg"
 email = "jellerubbens@hotmail.be"
 github = "https://github.com/Gwuan"
 github_username = "Gwuan"
