@@ -66,8 +66,8 @@ profile_image = "/images/profile-picture.jpg"
 email = "jellerubbens@hotmail.be"
 github = "https://github.com/Gwuan"
 github_username = "Gwuan"
-linkedin = "https://www.linkedin.com/in/jelle-rubbens-3b0575200/"
-linkedin_username = "jelle-rubbens-3b0575200"
+linkedin = "https://www.linkedin.com/in/jellerubbens/"
+linkedin_username = "jellerubbens"
 
 [menu]
   [[menu.main]]
