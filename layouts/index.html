@@ -2,14 +2,14 @@
 <head>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
-<div class="w-full md:w-4/5 lg:w-3/5 mx-auto px-14 py-12">
+<div class="w-full md:w-4/5 md:max-w-5xl lg:w-3/5 mx-auto px-14 py-12">
     <!-- Hero Section -->
     {{ $authorData := index site.Data .Language.Lang "author" }}
     {{ $author := cond (and $authorData $authorData.author) $authorData.author site.Params }}
     
     {{ with $author }}
     <section class="mb-16">
-        <div class="max-w-3xl ml-0 p-4 pb-2 border border-border-primary-light dark:border-border-primary-dark rounded-lg bg-bg-secondary-light dark:bg-bg-secondary-dark shadow-lg relative">            
+        <div class="max-w-3xl mx-auto p-4 pb-2 border border-border-primary-light dark:border-border-primary-dark rounded-lg bg-bg-secondary-light dark:bg-bg-secondary-dark shadow-lg relative">            
             <div class="text-left flex flex-col">
                 <!-- Top Section: Name & Location -->
                 <div class="flex flex-col mb-4">
