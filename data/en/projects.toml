@@ -10,7 +10,7 @@
 
 [[projects]]
 title = "Souper Bloody"
-description = "A dungeon crawler, hack-and-slash game currently in development for the Group Projects course. Our goal is to release it on Steam and submit it to several award shows, such as the Belgian Game Awards and The Rookies. Updates will follow soon!"
+description = "A dungeon crawler, hack-and-slash game currently in development for the Group Projects course. Our goal is to release it on Steam and submit it to several award contests, such as the Belgian Game Awards and The Rookies. Updates will follow soon!"
 tech = ["C#", "Unity"]
 image = "/images/projects/souper-bloody.png"
 featured = false
