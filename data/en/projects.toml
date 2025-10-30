@@ -56,3 +56,12 @@ image = "/images/projects/haunted-havoc.jpg"
 youtube = "https://youtu.be/07HAFmM_7Q8"
 link = "haunted-havoc"
 featured = true
+
+[[projects]]
+title = "Splendor"
+date = "2024-06-30"
+description = "A multiplayer Splendor clone created as a student group project at HoGent during my first year in Applied Computer Science. We used Azure services to host an Ubuntu server with a MySQL database, where user data (login and score) was stored. Despite the Ubuntu server, the game is designed for local multiplayer."
+tech = ["Java", "JavaFX", "Paradigm", "Ubuntu Server", "MySQL", "Azure"]
+image = "/images/projects/splendor.png"
+link="splendor"
+featured = false 
