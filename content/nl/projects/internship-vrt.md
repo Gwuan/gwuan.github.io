@@ -23,6 +23,14 @@ Op het vlak van rendering implementeerde ik zowel DLSS als ray tracing, voor AR 
 
 ![Beauty shot van de virtuele WK set tijdens uitzending](/images/projects/Internship/wk_screenshot.png)
 
+## Geografische tool voor VRT NWS
+
+Binnen VRT leefde de vraag om storytelling te verrijken met dynamische 3D-content vanuit realistische wereldrendering, op verschillende plekken in de wereld. Maar tegelijk ook toegankelijk genoeg voor grafische designers zonder ervaring in Unreal Engine.
+
+Ik ontwikkelde een op maat gemaakte Unreal Engine plugin die zowel beschikt over een vereenvoudigde interface als de extra gevraagde features. Via de vereenvoudigde interface kunnen de grafische designers alle relevante elementen bedienen zonder al te veel ervaring te hebben met de editor van Unreal Engine. Via deze interface konden ze bijvoorbeeld de locatie van de scène aanpassen op basis van geo-coördinaten of een adres, waarbij ook de mogelijkheid was om de actuele tijd en weeromstandigheden weer te geven of deze aspecten manueel aan te passen.
+
+Dit project was een nauwe samenwerking met de VRT NWS-afdeling, waarbij ik zij aan zij werkte met grafische designers en de creatief directeur van de afdeling. Tijdens de onboarding begeleidde ik de designers hands-on bij het verkennen van de tool en het uitwerken van concrete cases. Daarnaast schreef ik volledige documentatie en handleidingen zodat iedereen, ongeacht hun technische achtergrond, meteen aan de slag kan gaan met een nieuw project.
+
 ## Technologie & Tools
 
 - Unreal Engine 5
