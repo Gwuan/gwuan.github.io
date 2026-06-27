@@ -33,6 +33,10 @@ Dit project was een nauwe samenwerking met de VRT NWS-afdeling, waarbij ik zij a
 
 {{< image-compare before="/images/projects/Internship/nws_tool_day.webp" after="/images/projects/Internship/nws_tool_night.webp" >}}
 
+## R&D
+
+Naast de grotere projecten werkte ik aan verschillende kleinere research- en testprojecten om nieuwe technologieën te verkennen en zo de limieten op te sporen van de huidige hardware en infrastructuur. Het ging daarbij vooral om het configureren en testen van verschillende nDisplay configuraties in combinatie met de render cluster, op een LED-wall van ±33m bij ±4m. Ik werkte hands-on met SwitchBoard om de betreffende projecten op te zetten en om prestaties en stabiliteit te evalueren over verschillende setups, telkens met behoud van de visuele kwaliteit.
+
 ## Technologie & Tools
 
 - Unreal Engine 5

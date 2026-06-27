@@ -33,6 +33,10 @@ This project was a close collaboration with the VRT NWS department, working alon
 
 {{< image-compare before="/images/projects/Internship/nws_tool_day.webp" after="/images/projects/Internship/nws_tool_night.webp" >}}
 
+## R&D
+
+Alongside the main projects, I carried out several small research and testing projects to explore new technologies and their limitations on the current hardware & infrastructure. This work centered on the nDisplay setup driven by the render cluster on a ±33m x ±4m LED-wall, working hands-on with SwitchBoard to spin up the projects in question and evaluate performance and stability across setups, all while preserving visual quality.
+
 ## Technologies & Tools
 
 - Unreal Engine 5
