@@ -1,4 +1,12 @@
 [[projects]]
+title = "Stage @ VRT - Virtuele Productie Developer"
+description = ""
+tech = ["Unreal Engine", "Virtual Production", "AR", "XR","TouchDesigner"]
+link = "internship-vrt"
+image = "/images/projects/internship/wk_screenshot.png"
+featured = true
+
+[[projects]]
 title = "Souper Bloody"
 description = "Een dungeon crawler, hack-and-slash game die zich momenteel in productie plaats vind voor het vak Group Projects. Het doel van dit project is om het te release op steam en het in te sturen in verschillende award competities, zoals Belgian Game Awards en The Rookies. Updates volgen!"
 tech = ["C#", "Unity"]
