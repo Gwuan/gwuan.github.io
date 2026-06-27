@@ -31,6 +31,8 @@ Ik ontwikkelde een op maat gemaakte Unreal Engine plugin die zowel beschikt over
 
 Dit project was een nauwe samenwerking met de VRT NWS-afdeling, waarbij ik zij aan zij werkte met grafische designers en de creatief directeur van de afdeling. Tijdens de onboarding begeleidde ik de designers hands-on bij het verkennen van de tool en het uitwerken van concrete cases. Daarnaast schreef ik volledige documentatie en handleidingen zodat iedereen, ongeacht hun technische achtergrond, meteen aan de slag kan gaan met een nieuw project.
 
+{{< image-compare before="/images/projects/Internship/nws_tool_day.webp" after="/images/projects/Internship/nws_tool_night.webp" >}}
+
 ## Technologie & Tools
 
 - Unreal Engine 5

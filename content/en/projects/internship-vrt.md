@@ -31,6 +31,8 @@ I developed a custom Unreal Engine plugin featuring both a simplified interface 
 
 This project was a close collaboration with the VRT NWS department, working alongside graphic designers and the department's creative director. During the onboarding I guided the designers hands-on through exploring the tool and working out concrete use cases. I also wrote full documentation and guides so that anyone, regardless of their technical background, can get started on a new project straight away.
 
+{{< image-compare before="/images/projects/Internship/nws_tool_day.webp" after="/images/projects/Internship/nws_tool_night.webp" >}}
+
 ## Technologies & Tools
 
 - Unreal Engine 5
