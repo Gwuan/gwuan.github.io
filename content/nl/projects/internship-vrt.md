@@ -11,6 +11,7 @@ layout: "project"
 
 ## Overzicht
 
+Tijdens het tweede semester van mijn laatste jaar in de bacheloropleiding Game Development aan Howest Digital Arts & Entertainment liep ik stage bij VRT, de openbare omroep van België. Gedurende de stage werkte ik aan meerdere projecten: van live uitzendingen en interne tooling tot R&D en een afsluitende stagepresentatie op een grote LED-wall, allemaal rond real-time virtuele productie.
 
 ## Mijn rol
 
