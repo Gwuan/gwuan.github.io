@@ -15,6 +15,7 @@ During the second semester of my senior year in the Game Development bachelor at
 
 ## My Role
 
+As a Virtual Production Developer I was involved in the technical side of TV productions. Depending on the project, I worked independently or in close collaboration with different departments within VRT. My work ranged from developing Unreal Engine tools/plugins for production purposes and carrying out research & test projects on the production infrastructure, to delivering documentation for colleagues regardless of their technical background.
 
 ## Technologies & Tools
 
