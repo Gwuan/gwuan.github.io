@@ -9,6 +9,14 @@
 # featured = true
 
 [[projects]]
+title = "Internship @ VRT - Virtual Production Developer"
+description = ""
+tech = ["Unreal Engine", "Virtual Production", "AR", "XR","TouchDesigner"]
+link = "internship-vrt"
+image = "/images/projects/internship/wk_screenshot.png"
+featured = true
+
+[[projects]]
 title = "Souper Bloody"
 description = "A dungeon crawler, hack-and-slash game currently in development for the Group Projects course. Our goal is to release it on Steam and submit it to several award contests, such as the Belgian Game Awards and The Rookies. Updates will follow soon!"
 tech = ["C#", "Unity"]

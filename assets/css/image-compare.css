@@ -1,0 +1,66 @@
+.image-compare {
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  cursor: col-resize;
+  touch-action: none;
+  line-height: 0;
+  width: 100%;
+}
+
+.image-compare_after-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+
+.image-compare_before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  clip-path: inset(0 calc((100 - var(--pos)) * 1%) 0 0);
+}
+
+.image-compare_before-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  pointer-events: none;
+}
+
+.image-compare_divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--pos) * 1%);
+  width: 2px;
+  background: white;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.image-compare_handle {
+  position: absolute;
+  top: 50%;
+  left: calc(var(--pos) * 1%);
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+/* keyboard focus visibility */
+.image-compare:focus-visible {
+  outline: 2px solid #4a90d9;
+  outline-offset: 2px;
+}

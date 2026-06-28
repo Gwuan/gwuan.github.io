@@ -1,0 +1,41 @@
+{{- $first := .Get "first" -}}
+{{- $second := .Get "second" -}}
+{{- $firstPoster := .Get "firstPoster" -}}
+{{- $secondPoster := .Get "secondPoster" -}}
+
+{{- if not (.Page.Store.Get "videoPairAssets") -}}
+{{- .Page.Store.Set "videoPairAssets" true -}}
+{{- with resources.Get "css/video-pair.css" -}}
+{{- $css := . | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- end -}}
+{{- end -}}
+
+<div class="video-pair">
+  <div>
+    <video
+      controls
+      controlslist="nodownload noremoteplayback"
+      disablepictureinpicture
+      playsinline
+      preload="metadata"
+      oncontextmenu="return false;"
+      {{ with $firstPoster }}poster="{{ . }}"{{ end }}
+    >
+      <source src="{{ $first }}" type="video/webm" />
+    </video>
+  </div>
+  <div>
+    <video
+      controls
+      controlslist="nodownload noremoteplayback"
+      disablepictureinpicture
+      playsinline
+      preload="metadata"
+      oncontextmenu="return false;"
+      {{ with $secondPoster }}poster="{{ . }}"{{ end }}
+    >
+      <source src="{{ $second }}" type="video/webm" />
+    </video>
+  </div>
+</div>
