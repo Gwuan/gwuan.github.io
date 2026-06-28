@@ -21,7 +21,7 @@ Voor de uitzendingen rond de FIFA Wereldkampioenschap 2026 op Sporza was ik vera
 
 Op het vlak van rendering implementeerde ik zowel DLSS als ray tracing, voor AR en XR (LED-wall). Ray tracing haalde de live uitzendingen, maar DLSS moest worden geschrapt. De neveneffecten van DLSS kwamen niet overeen met de kwaliteitsstandaarden van een live uitzending.
 
-![Beauty shot van de virtuele WK set tijdens uitzending](/images/projects/Internship/wk_screenshot.png)
+![Beauty shot van de virtuele WK set tijdens uitzending](/images/projects/internship/wk_screenshot.png)
 
 ## Geografische tool voor VRT NWS
 
@@ -31,7 +31,7 @@ Ik ontwikkelde een op maat gemaakte Unreal Engine plugin die zowel beschikt over
 
 Dit project was een nauwe samenwerking met de VRT NWS-afdeling, waarbij ik zij aan zij werkte met grafische designers en de creatief directeur van de afdeling. Tijdens de onboarding begeleidde ik de designers hands-on bij het verkennen van de tool en het uitwerken van concrete cases. Daarnaast schreef ik volledige documentatie en handleidingen zodat iedereen, ongeacht hun technische achtergrond, meteen aan de slag kan gaan met een nieuw project.
 
-{{< image-compare before="/images/projects/Internship/nws_tool_day.webp" after="/images/projects/Internship/nws_tool_night.webp" >}}
+{{< image-compare before="/images/projects/internship/nws_tool_day.webp" after="/images/projects/internship/nws_tool_night.webp" >}}
 
 ## R&D
 
