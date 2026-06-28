@@ -21,21 +21,31 @@ For the broadcasts surrounding the 2026 FIFA World Cup on Sporza, I was responsi
 
 On the rendering side, I implemented both DLSS and ray tracing for both AR & XR (LED-wall). Ray tracing made it into the live broadcasts, but DLSS had to be dropped. The side effects of DLSS did not meet the quality standards of a live broadcast.
 
-![Beauty shot of the world cup virtual set during broadcast](/images/projects/Internship/wk_screenshot.png)
+![Beauty shot of the world cup virtual set during broadcast](/images/projects/internship/wk_screenshot.png)
 
 ## Geographical tool for VRT NWS
 
-Within VRT there was a need to enrich storytelling with dynamic 3D content through realistic world rendering, across different locations around the world — while remaining accessible enough for graphic designers with no Unreal Engine experience.
+Within VRT there was a need to enrich storytelling with dynamic 3D content through realistic world rendering, across different locations around the world, while remaining accessible enough for graphic designers with no Unreal Engine experience.
 
 I developed a custom Unreal Engine plugin featuring both a simplified interface and the additionally requested features. Through the simplified interface, graphic designers can control all relevant elements without needing extensive experience with the Unreal Engine editor. For example, they could adjust the location of the scene based on geo-coordinates or an address, with the option to display the current time and weather conditions or adjust these aspects manually.
 
-This project was a close collaboration with the VRT NWS department, working alongside graphic designers and the department's creative director. During the onboarding I guided the designers hands-on through exploring the tool and working out concrete use cases. I also wrote full documentation and guides so that anyone, regardless of their technical background, can get started on a new project straight away.
+{{<youtube Uk6BClAGeFw>}}
 
-{{< image-compare before="/images/projects/internship/nws_tool_day.webp" after="/images/projects/internship/nws_tool_night.webp" >}}
+To provide additional support, I wrote full documentation and guides so that anyone, regardless of their technical background, can get started on a new project straight away.
+
+{{<image-compare before="/images/projects/internship/nws_tool_day.webp" after="/images/projects/internship/nws_tool_night.webp">}}
 
 ## R&D
 
 Alongside the main projects, I carried out several small research and testing projects to explore new technologies and their limitations on the current hardware & infrastructure. This work centered on the nDisplay setup driven by the render cluster on a ±33m x ±4m LED-wall, working hands-on with SwitchBoard to spin up the projects in question and evaluate performance and stability across setups, all while preserving visual quality.
+
+## Internship presentation
+
+With two weeks left in my internship, I built my end-of-intership presentation entirely in TouchDesigner. Which was delivered live on the LED wall itself. While I had no prior experience with TouchDesigner, I learned it from scratch with guidance from my colleagues.
+
+The result was a fully interactive presenter interface that gave me real-time control over the presentation from the stage: switching slides, triggering animations, rotating 3D objects and so on.
+
+{{<video-pair first="/videos/projects/intership/TD_WK.webm" second="/videos/projects/intership/TD_cesium_weather.webm">}}
 
 ## Technologies & Tools
 
