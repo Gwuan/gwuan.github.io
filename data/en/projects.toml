@@ -9,18 +9,20 @@
 # featured = true
 
 [[projects]]
-title = "Souper Bloody"
-description = "A dungeon crawler, hack-and-slash game currently in development for the Group Projects course. Our goal is to release it on Steam and submit it to several award contests, such as the Belgian Game Awards and The Rookies. Updates will follow soon!"
-tech = ["C#", "Unity"]
-image = "/images/projects/souper-bloody.png"
-featured = false
+title = "Internship @ VRT - Virtual Production Developer"
+description = ""
+tech = ["Unreal Engine", "Virtual Production", "AR", "XR","TouchDesigner"]
+link = "internship-vrt"
+image = "/images/projects/internship/wk_screenshot.png"
+featured = true
 
 [[projects]]
-title = "GradWork: VR optimiziation to decrease battery drain"
-description = "I'm currently working on my graduation work which is a comparative paper on how you can optimize VR game to reduce battery drain while mainting high framerate and visual quality. I will update this page when I'm ready to share my findings!"
-tech = ["C#", "Unity", "VR"]
-image = "/images/projects/pexels-anna-2037514238-29929136.jpg"
-featured = false
+title = "Souper Bloody"
+description = "A dungeon crawler, hack-and-slash game currently available on Steam!"
+tech = ["C#", "Unity"]
+image = "/images/projects/souper-bloody.png"
+link = "souper-bloody"
+featured = true
 
 [[projects]]
 title = "Software Raytracer"
@@ -29,22 +31,6 @@ tech = ["C++", "CMake"]
 image = "/images/projects/RayTracing_Buffer_Reference_Combined.png"
 github = "https://github.com/gwuan/Software-Raytracer"
 link = "software-raytracer"
-featured = true
-
-[[projects]]
-title = "Custom 2D Game Engine"
-date = "2025-06-30"
-description = "A custom 2D Game Engine almost from scratch as a exam project, built for Burger Time clone. It has SaaS (Sound as a Service), JSON level loading, XInput gamepad support, etc.!"
-tech = ["C++", "SDL", "XInput"]
-image = "/images/projects/game-engine.png"
-featured = true
-
-[[projects]]
-title = "Vulkan Render Engine"
-date = "2025-06-30"
-description = "A custom-built rendering engine developed from scratch using the Vulkan API. Features both dynamic and deferred rendering pipelines with static glTF model support. Includes automated project setup and builds via CMake."
-tech = ["C++", "SDL", "Vulkan"]
-image = "/images/projects/vulkan-render-engine.png"
 featured = true
 
 [[projects]]

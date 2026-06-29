@@ -1,4 +1,18 @@
 [[experience]]
+  role = "Virtuele Productie Developer - Stage"
+  company = "VRT"
+  company_link = "https://vrt.be"
+  period = "Feb 2026 - Jun 2026"
+  country = "BE"
+  description = "Als Virtuele Productie Developer werkte ik aan de technische implementaties van virtuele TV-producties, zoals de virtuele set van het FIFA Wereldkampioenschap 2026 op Sporza, en aan interne tools voor andere afdelingen binnen VRT."
+  responsibilities = [
+    "AR-jumbotron met live feed & API calls voor de uitzendingen van het FIFA WK 2026 op Sporza",
+    "Ontwikkelen van custom Unreal Engine 5 plugins/tools voor TV-productiedoeleinden",
+    "Implementeren van ray tracing en DLSS voor AR en XR (LED-wall)",
+    "Ontwikkelen van mijn eindpresentatie in TouchDesigner voor de LED-wall"
+    ]
+
+[[experience]]
   role = "Student Project - Unreal Game Developer"
   company = "Howest DAE - Haunted Havoc"
   company_link = "https://xpromusje.itch.io/hauntedhavoc"

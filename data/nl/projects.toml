@@ -1,16 +1,18 @@
 [[projects]]
-title = "Souper Bloody"
-description = "Een dungeon crawler, hack-and-slash game die zich momenteel in productie plaats vind voor het vak Group Projects. Het doel van dit project is om het te release op steam en het in te sturen in verschillende award competities, zoals Belgian Game Awards en The Rookies. Updates volgen!"
-tech = ["C#", "Unity"]
-image = "/images/projects/souper-bloody.png"
-featured = false
+title = "Stage @ VRT - Virtuele Productie Developer"
+description = ""
+tech = ["Unreal Engine", "Virtual Production", "AR", "XR","TouchDesigner"]
+link = "internship-vrt"
+image = "/images/projects/internship/wk_screenshot.png"
+featured = true
 
 [[projects]]
-title = "Eindwerk: VR optimalisatie om het batterijverbruik te verminderen"
-description = "Ik ben momenteel bezig met mijn eindwerk, een vergelijkend onderzoek over hoe je VR-games kunt optimaliseren om het batterijverbruik te verminderen, terwijl je een hoge framrate en visuale kwaliteit behoudt. Ik zal deze pagina bijwerken zodra ik klaar ben om mijn bevindingen te delen!"
-tech = ["C#", "Unity", "VR"]
-image = "/images/projects/pexels-anna-2037514238-29929136.jpg"
-featured = false
+title = "Souper Bloody"
+description = "Een dungeon crawler, hack-and-slash game momenteel beschikbaar op Steam!"
+tech = ["C#", "Unity"]
+image = "/images/projects/souper-bloody.png"
+link = "souper-bloody"
+featured = true
 
 [[projects]]
 title = "Software Raytracer"
@@ -19,22 +21,6 @@ tags = ["C++", "CMake"]
 image = "/images/projects/RayTracing_Buffer_Reference_Combined.png"
 github = "https://github.com/gwuan/Software-Raytracer"
 link = "software-raytracer"
-featured = true
-
-[[projects]]
-title = "Custom 2D Game Engine"
-date = "2025-06-30"
-description = "Een persoonlijke 2D game engine die ik bijna vanaf nul heb opgebouwd als examenopdracht voor het vak programming en die momenteel wordt gerefactored. De engine bevat SaaS (Sound as a Service), JSON level loading, XInput gamepad ondersteuning en meer!"
-tags = ["C++", "SDL", "XInput"]
-image = "/images/projects/game-engine.png"
-featured = true
-
-[[projects]]
-title = "Vulkan Render Engine"
-date = "2025-06-30"
-description = "Een zelfontwikkelde render-engine voor Graphics Programming 2, gebaseerd op de Vulkan API. De engine ondersteunt moderne technieken zoals bindless rendering, dynamic rendering en een deferred rendering pipeline, evenals statische glTF-modellen (geen skinned models). Shaders worden tijdens buildtime via CMake van GLSL naar SPIR-V gecompileerd."
-tags = ["C++", "SDL", "Vulkan"]
-image = "/images/projects/vulkan-render-engine.png"
 featured = true
 
 [[projects]]

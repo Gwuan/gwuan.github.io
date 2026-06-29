@@ -1,0 +1,24 @@
+.video-pair {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.video-pair > div {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.video-pair video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+/* On mobile: stack vertically — first on top, second on bottom */
+@media (max-width: 600px) {
+  .video-pair {
+    flex-direction: column;
+  }
+}

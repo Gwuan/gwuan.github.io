@@ -1,0 +1,40 @@
+{{- $before := .Get "before" -}}
+{{- $after := .Get "after" -}}
+{{- $beforeAlt := .Get "beforeAlt" | default "Before" -}}
+{{- $afterAlt := .Get "afterAlt" | default "After" -}}
+{{- $start := .Get "start" | default 50 -}}
+
+<div class="image-compare" role="slider" tabindex="0"
+     aria-label="Before and after image comparison"
+     aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{ $start }}"
+     style="--pos: {{ $start }};">
+
+  <img class="image-compare_after-img" src="{{ $after }}" alt="{{ $afterAlt }}" draggable="false" />
+
+  <div class="image-compare_before">
+    <img class="image-compare_before-img" src="{{ $before }}" alt="{{ $beforeAlt }}" draggable="false" />
+  </div>
+
+  <div class="image-compare_divider"></div>
+
+  <div class="image-compare_handle">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7 4L2 10L7 16" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M13 4L18 10L13 16" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+</div>
+
+{{- if not (.Page.Store.Get "imageCompareAssets") -}}
+  {{- .Page.Store.Set "imageCompareAssets" true -}}
+
+  {{- with resources.Get "css/image-compare.css" -}}
+    {{- $css := . | minify | fingerprint -}}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{- end -}}
+
+  {{- with resources.Get "js/image-compare.js" -}}
+    {{- $js := . | minify | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  {{- end -}}
+{{- end -}}
