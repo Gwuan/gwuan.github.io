@@ -3,7 +3,7 @@ title: "Stage @ VRT - Virtuele Productie Developer"
 date: 2026-06-27
 tags: ["Unreal Engine", "C++", "Virtual Production", "AR", "XR"]
 techs: ["Unreal Engine 5", "C++", "TouchDesigner", "XR", "AR", "Unreal Plugin"]
-draft: true
+draft: false
 layout: "project"
 ---
 
@@ -23,7 +23,7 @@ Op het vlak van rendering implementeerde ik zowel DLSS als ray tracing, voor AR 
 
 ![Beauty shot van de virtuele WK set tijdens uitzending](/images/projects/internship/wk_screenshot.png)
 
-## Geografische tool voor VRT NWS
+## Geografische tool in Unreal Engine
 
 Binnen VRT leefde de vraag om storytelling te verrijken met dynamische 3D-content vanuit realistische wereldrendering, op verschillende plekken in de wereld. Maar tegelijk ook toegankelijk genoeg voor grafische designers zonder ervaring in Unreal Engine.
 
@@ -33,7 +33,7 @@ Ik ontwikkelde een op maat gemaakte Unreal Engine plugin die zowel beschikt over
 
 Daarnaast schreef ik volledige documentatie en handleidingen zodat iedereen, ongeacht hun technische achtergrond, meteen aan de slag kan gaan met een nieuw project.
 
-{{<image-compare before="/images/projects/internship/nws_tool_day.webp" after="/images/projects/internship/nws_tool_night.webp">}}
+{{<image-compare before="/images/projects/internship/tool_day.webp" after="/images/projects/internship/tool_night.webp">}}
 
 ## R&D
 

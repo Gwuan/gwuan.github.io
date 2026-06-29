@@ -1,4 +1,18 @@
 [[experience]]
+  role = "Virtual Production Developer - Internship"
+  company = "VRT (Belgian public broadcaster)"
+  company_link = "https://vrt.be"
+  period = "Feb 2026 - Jun 2026"
+  country = "BE"
+  description = "As Virtual Production Developer I worked on the technical implementations of virtual TV productions, such as the virtual set of the 2026 FIFA World Cup on Sporza, and on in-house tools for other departments within VRT."
+  responsibilities = [
+    "AR jumbotron live feed with API calls for Sporza's FIFA World Cup 2026 broadcasts",
+    "Developed custom Unreal Engine 5 plugins/tools for TV production purposes",
+    "Implemented ray tracing for AR/XR rendering on the LED wall, with nDisplay",
+    "Developed my end-of-internship presentation in TouchDesigner for the LED wall"
+    ]
+
+[[experience]]
   role = "Student project - Unreal Game developer"
   company = "Howest DAE - Haunted Havoc"
   company_link = "https://xpromusje.itch.io/hauntedhavoc"

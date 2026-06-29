@@ -3,7 +3,7 @@ title: "Internship @ VRT - Virtual Production Developer"
 date: 2026-06-27
 tags: ["Unreal Engine", "C++", "Virtual Production", "AR", "XR"]
 techs: ["Unreal Engine 5", "C++", "TouchDesigner", "XR", "AR", "Unreal Plugin"]
-draft: true
+draft: false
 layout: "project"
 ---
 
@@ -23,7 +23,7 @@ On the rendering side, I implemented both DLSS and ray tracing for both AR & XR 
 
 ![Beauty shot of the world cup virtual set during broadcast](/images/projects/internship/wk_screenshot.png)
 
-## Geographical tool for VRT NWS
+## Geographical tool in Unreal Engine
 
 Within VRT there was a need to enrich storytelling with dynamic 3D content through realistic world rendering, across different locations around the world, while remaining accessible enough for graphic designers with no Unreal Engine experience.
 
@@ -33,7 +33,7 @@ I developed a custom Unreal Engine plugin featuring both a simplified interface 
 
 To provide additional support, I wrote full documentation and guides so that anyone, regardless of their technical background, can get started on a new project straight away.
 
-{{<image-compare before="/images/projects/internship/nws_tool_day.webp" after="/images/projects/internship/nws_tool_night.webp">}}
+{{<image-compare before="/images/projects/internship/tool_day.webp" after="/images/projects/internship/tool_night.webp">}}
 
 ## R&D
 
