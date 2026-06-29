@@ -1,0 +1,9 @@
+{{- $appID := .Get "appID" -}}
+{{- $utm := .Get "utm" -}}
+
+<iframe 
+    src="https://store.steampowered.com/widget/{{$appID}}{{with $utm}}/?utm_source={{.}}{{end}}" 
+    frameborder="0" 
+    width="100%" 
+    height="190">
+</iframe>
