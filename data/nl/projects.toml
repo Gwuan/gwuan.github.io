@@ -10,7 +10,7 @@ featured = true
 title = "Souper Bloody"
 description = "Een dungeon crawler, hack-and-slash game momenteel beschikbaar op Steam!"
 tech = ["C#", "Unity"]
-image = "/images/projects/souper-bloody.png"
+image = "/images/projects/souper-bloody-capsule.png"
 link = "souper-bloody"
 featured = true
 
